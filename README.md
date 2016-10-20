@@ -52,7 +52,7 @@ Download and build the solution, then reference the dll in your project
 OR
 
 Copy and Paste the code.
-In this case you will need to reference the [Xaml Behaviors SDK]{https://github.com/Microsoft/XamlBehaviors} in your project.
+In this case you will need to reference the [Xaml Behaviors SDK](https://github.com/Microsoft/XamlBehaviors) in your project.
 
 **Nuget: Coming Soon**
 
@@ -62,4 +62,4 @@ I'm particularly interested in providing the ability to swipe from the last HubS
 
 ##Licence 
 
-This code is licenced under the MIT Licence - see the [LICENCE.md](LICENCE.md) file for details
+This code is licenced under the MIT Licence - see the [LICENCE](https://github.com/corcus/HubSection-FillPage-Behavior/blob/master/LICENSE) file for details
