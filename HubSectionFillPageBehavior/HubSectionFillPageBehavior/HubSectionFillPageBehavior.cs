@@ -59,7 +59,6 @@ namespace HubSectionFillPageBehavior
                 associatedHub.Sections[i].Width = associatedHub.ActualWidth - 24; // leave some space for the next hubsection to be visible
             }
             associatedHub.Sections[associatedHub.Sections.Count - 1].Width = associatedHub.ActualWidth;
-
         }
 
         private ScrollViewer getScrollViewer(DependencyObject o)
