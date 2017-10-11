@@ -1,7 +1,7 @@
 # HubSection-FillPage-Behavior
 A Behavior to make the UWP Hub control adjust the width of each HubSection to fill the Hub width. It will also snap in place when swiped.
 
-##Goal
+## Goal
 When Windows 10 Mobile came out, the Hub control functionality was quite different than the Windows Phone 8.1 control. 
 There were two main differencies. 
 - The HubSections no longer fit the width of the screen by default
@@ -10,7 +10,7 @@ There were two main differencies.
 The intention of this behavior is to give the above functionality to the UWP Hub control when running on a mobile device.
 
 
-##Usage
+## Usage
 ```
 <!-- use the necessary namespaces -->
 <Page
@@ -36,7 +36,7 @@ The intention of this behavior is to give the above functionality to the UWP Hub
 ```
 
 
-##Functionality
+## Functionality
 This behavior changes the default functionality of the UWP Hub control **only when running on a mobile device**. 
 It will not affect the control when running on a different device familly. 
 
@@ -47,6 +47,10 @@ Also, when swiping the next HubSection will snap into place.
 
 
 ## Installing
+**[Get it from Nuget](https://www.nuget.org/packages/HubSectionFillPageBehavior/)**
+
+OR
+
 Download and build the solution, then reference the dll in your project
 
 OR
@@ -54,12 +58,11 @@ OR
 Copy and Paste the code.
 In this case you will need to reference the [Xaml Behaviors SDK](https://github.com/Microsoft/XamlBehaviors) in your project.
 
-**Nuget: Coming Soon**
 
 ## Contribution
 If anyone has a good idea to improve this behavior I will be glad to accept pull requests.
 I'm particularly interested in providing the ability to swipe from the last HubSection to the first in a cycle.
 
-##Licence 
+## Licence 
 
 This code is licenced under the MIT Licence - see the [LICENCE](https://github.com/corcus/HubSection-FillPage-Behavior/blob/master/LICENSE) file for details
